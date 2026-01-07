@@ -1,0 +1,6 @@
+Line 1: DevOps Training
+Line 2: Git Basics
+Line 3: CI/CD Pipeline
+Line 4: Docker
+Line 5: Kubernetes
+Line 6: End
