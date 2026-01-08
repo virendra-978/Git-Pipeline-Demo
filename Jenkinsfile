@@ -21,7 +21,7 @@ pipeline {
         stage('Test') { 
             steps { 
                 echo 'Running tests...' 
-                sh 'java -cp src/main/java com.example.HelloDevOpsTest' 
+                sh 'java -cp src/test/java com.example.HelloDevOpsTest' 
             } 
         } 
         stage('Archive') { 
