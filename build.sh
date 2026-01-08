@@ -11,5 +11,4 @@ jar cfe app.jar com.example.HelloDevOps -C src/main/java .
 echo "JAR created: app.jar" 
 echo "=== Running Application ===" 
 java -jar app.jar 
-EOF 
 chmod +x build.sh
