@@ -4,13 +4,13 @@ pipeline {
         jdk 'jdk11'  // Make sure JDK is configured in Jenkins 
     }
     stages { 
-        stage('Checkout') { 
-            steps { 
-                git branch: 'main', 
-                    url: 'file:///PATH/TO/YOUR/pipeline-git-repo'  // Update path 
-                echo 'Repository cloned successfully' 
-            } 
-        } 
+        // stage('Checkout') { 
+        //     steps { 
+        //         git branch: 'main', 
+        //             url: 'file:///PATH/TO/YOUR/pipeline-git-repo'  // Update path 
+        //         echo 'Repository cloned successfully' 
+        //     } 
+        // } 
         stage('Build') { 
             steps { 
                 echo 'Building application...' 
